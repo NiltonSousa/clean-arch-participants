@@ -1,0 +1,1 @@
+# clean-arch-participants
