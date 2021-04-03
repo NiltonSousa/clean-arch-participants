@@ -1,0 +1,25 @@
+<div>
+    <h1> Lista de Participantes do Programa de Aceleração #8</h1>
+    <table class="table-list">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Endereço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let participant of participants">
+                <td>
+                    {{ participant.name }}
+                </td>
+                <td>
+                    {{ participant.age }}
+                </td>
+                <td>
+                    {{ participant.address }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
