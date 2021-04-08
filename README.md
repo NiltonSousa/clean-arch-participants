@@ -7,7 +7,7 @@ To build this project you will need:
   * Typescript 1.0.3.0 or more.
   * Node Js 12.17.0 or more.
 
-#IDE
+# IDE
 Personally i like VS Code, but you can use another text editor.
 
 How to build?
