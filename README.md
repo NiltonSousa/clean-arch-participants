@@ -8,7 +8,7 @@ To build this project you will need:
   * Node Js 12.17.0 or more.
 
 # IDE
-Personally i like VS Code, but you can use another text editor.
+Personally i like VS Code, but you should use another text editor.
 
 How to build?
    * Firstly, clone the project locally and open Participants folder in your IDE.
