@@ -4,7 +4,7 @@ This project is a simple front-end structure builded with the principles of clea
 # Stacks
 To build this project you will need:
   * Angular JS 7 or more.
-  * Typescript.
+  * Typescript 1.0.3.0 or more.
   * Node Js 12.17.0 or more.
 
 #IDE
