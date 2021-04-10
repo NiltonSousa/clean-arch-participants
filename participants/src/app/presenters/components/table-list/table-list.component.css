@@ -1,4 +1,5 @@
 .table-list thead th, tbody td {
     text-align: center;
     width: 200px;
+    border: 1px solid black;
 }

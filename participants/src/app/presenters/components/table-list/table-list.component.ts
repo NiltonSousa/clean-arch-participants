@@ -12,13 +12,12 @@ import { ParticipantService } from 'src/app/use-cases/participant.service';
 })
 export class TableListComponent implements OnInit {
 
-  // Private properties
-  private participantService: ParticipantService = new ParticipantService();
-
   // Public properties
   public participants = new Array<ParticipantModel>();
 
-  constructor() { }
+  constructor(private participantService: ParticipantService) {
+    
+  }
 
   ngOnInit() {
     this.participants = this.participantService.getParticipants();
