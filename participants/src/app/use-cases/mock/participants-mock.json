@@ -8,5 +8,20 @@
         "name":"Angélica",
         "age": 36,
         "address": "Rua da Louco"
+    },
+    {
+        "name":"Will",
+        "age": 30,
+        "address": "Rua da Doutora"
+    },
+    {
+        "name":"Douglas",
+        "age": 22,
+        "address": "Rua da Banana "
+    },
+    {
+        "name":"Debora",
+        "age": 22,
+        "address": "Rua da Melancia"
     }
 ]
