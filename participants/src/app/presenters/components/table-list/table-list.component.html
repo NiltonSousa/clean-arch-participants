@@ -1,25 +1,39 @@
-<div>
-    <h1> Lista de Participantes do Programa de Aceleração #8</h1>
-    <table class="table-list">
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Idade</th>
-                <th>Endereço</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr *ngFor="let participant of participants">
-                <td>
-                    {{ participant.name }}
-                </td>
-                <td>
-                    {{ participant.age }}
-                </td>
-                <td>
-                    {{ participant.address }}
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no-scale">
+    <title>Lista de Participantes</title>
+</head>
+
+<body>
+    <div>
+        <h1> Lista de Participantes do Programa de Aceleração #8</h1>
+        <table class="table-list">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Endereço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let participant of participants">
+                    <td>
+                        {{ participant.name }}
+                    </td>
+                    <td>
+                        {{ participant.age }}
+                    </td>
+                    <td>
+                        {{ participant.address }}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
